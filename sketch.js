@@ -4,13 +4,12 @@ let yes, no;
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
-  yes = new Button("YES");
-  no = new Button("NO");
+  yes = new Button("YES", width / 5, height / 2 + height/8);
+  no = new Button("NO", 3 * width / 5, height / 2 + height/8);
 }
 
 function draw() {
   background(220);
-
   textAlign(CENTER, CENTER);
   textSize(32);
   noStroke();
