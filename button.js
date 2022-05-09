@@ -1,16 +1,10 @@
 class Button {
-  constructor(name) {
+  constructor(name, x, y) {
     this.name = name;
-    this.width = 75;
-    this.height = 50;
-    
-    if (name == "YES") {
-      this.x = width/2-125;
-      this.y = height/2+50;
-    } else if (name == "NO") {
-      this.x = width/2+50;
-      this.y = height/2+50;
-    }
+    this.width = width/5;
+    this.height = height/8;
+    this.x = x;
+    this.y = y;
   }
   
   show() {
